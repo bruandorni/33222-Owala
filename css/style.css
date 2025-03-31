@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+section h1, section h2 {
+    color: #333;
+}
+
+.card {
+    background-color: #eee;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #008c9e;
+}
+
+footer {
+    text-align: center;
+    background-color: #00bcd4;
+    color: white;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+form button {
+    width: 100px;
+    align-self: flex-start;
+}
+.container {
+    display: flex; 
+    align-items: center; 
+  }
+  
+  .imagem {
+    width: 200px; 
+    height: auto;
+    margin-right: 20px; 
+  }
+  
+  .texto {
+    max-width: 500px;
+  }
+  
